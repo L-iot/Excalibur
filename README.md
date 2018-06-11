@@ -1,7 +1,10 @@
+# If you enjoyed this tool and you found it useful, I'll be happy for donations at 39om67XSXi1eAQNTgLXufw1xwR897JMWwv. Thanks!
+
 # Excalibur
 Excalibur is an Eternalblue exploit based "Powershell" for the Bashbunny project.
 It's purpose is to reflect on how a "simple" USB drive can execute the 7 cyber kill chain.
-Excalibur may be used only for demostrations purposes only, and the developers are not responsible to any misuse or illeagal usage.
+Excalibur may be used only for demostrations purposes only, and the developers are not responsible to any misuse or illegal usage.
+
 
 
 # What does it do?
@@ -20,7 +23,7 @@ https://github.com/vivami/MS17-010
 1. Copy payload.txt to the switch folder.
 2. Copy the "eternablblue_exploit7.py" and compile it using Pyinstaller:
 * "pip install pyinstaller"
-* "pipinstaller --onefile eternablblue_exploit7.py"
+* "pyinstaller --onefile MS17-010\eternablblue_exploit7.py"
 
 3. Add your shellcode and the compiled exploiter into "a.zip" and copy it to the "loot" folder".
 * a.zip needs to contain a compiled, standalone eternalblue exploiter from "vivami's" repo and the shellcode.
